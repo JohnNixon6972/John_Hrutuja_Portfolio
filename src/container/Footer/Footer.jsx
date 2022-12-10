@@ -32,7 +32,7 @@ const Footer = () => {
         setLoading(false);
         setIsFormSubmitted(true);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.error(err)); // eslint-disable-line no-console
   };
 
   return (
